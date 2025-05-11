@@ -9,8 +9,8 @@ async def solve_sudoku(file: UploadFile = File(...)):
     print("hello")
     try:
         contents = await file.read()
-        # board = solve_sudoku_image(contents)
-        board = placeholder(contents)
+        board = solve_sudoku_image(contents)
+        # board = placeholder(contents)
         board = [[int(cell) for cell in row] for row in board]
         return {"board": board}
     except Exception as e:
