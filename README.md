@@ -19,7 +19,7 @@ The frontend of this app was created in **Swift** using **SwiftUI**. The board-s
 - The backend also integrates an **OCR (Optical Character Recognition)** method to read the numbers from the uploaded image, allowing the app to work with images of handwritten or printed sudoku boards.
 
 ### Features:
-- **Capture and Upload**: The user can capture a new image of a sudoku puzzle or choose an existing image from their photo library.
+- **Capture and Upload**: The user can choose an existing image from their photo library.
 - **Sudoku Solving**: The app communicates with the backend to solve the puzzle using a Python algorithm.
 - **Responsive UI**: The solved sudoku board is displayed with a clean and responsive interface.
 - **Error Handling**: If an image is invalid or the solver fails, the app provides the user with an error message.
