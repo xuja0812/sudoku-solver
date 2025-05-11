@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
-from predict import solve_sudoku_image  # You will write this
+from predict import solve_sudoku_image  
 
 app = FastAPI()
 
